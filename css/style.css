@@ -777,37 +777,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Call To Action Section
 --------------------------------*/
-
-#skills {
-  padding: 60px 0;
-}
-
-#skills .progress {
-  height: 35px;
-  margin-bottom: 10px;
-}
-
-#skills .progress .skill {
-  font-family: "Open Sans", sans-serif;
-  line-height: 35px;
-  padding: 0;
-  margin: 0 0 0 20px;
-  text-transform: uppercase;
-}
-
-#skills .progress .skill .val {
-  float: right;
-  font-style: normal;
-  margin: 0 20px 0 0;
-}
-
-#skills .progress-bar {
-  width: 1px;
-  text-align: left;
-  transition: .9s;
-}
-
-
+/* Team */
 #team {
   background: #fff;
   padding: 60px 0;
@@ -816,8 +786,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team .member {
   text-align: center;
   margin-bottom: 20px;
-  background: #000;
+  /* background: #000; */
   position: relative;
+  border: 1px solid transparent;
+  
 }
 
 #team .member .member-info {
@@ -851,6 +823,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: rgba(0, 0, 0, 0.7);
   opacity: 1;
   transition: 0.4s;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 #team .member:hover .member-info-content {
@@ -889,6 +863,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
   margin: 0 2px;
 }
+
+#team .member .border{
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+} 
 
 /* Contact Section
 --------------------------------*/
