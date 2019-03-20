@@ -150,7 +150,7 @@ h6 {
 #header #logo h1 a:hover {
   color: #fff;
   padding-left: 10px;
-  border-left: 4px solid #3C5A99;
+  /* border-left: 4px solid #3C5A99; */
 }
 
 #header #logo img {

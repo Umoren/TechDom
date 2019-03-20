@@ -1,0 +1,43 @@
+body{
+    background-color: lightyellow;
+}
+
+#select {
+    z-index: 600;
+    position: relative;
+   
+
+}
+.select{
+    text-align: center;
+    color: white;
+}
+
+
+#select > .select_background{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    top: 0;
+    bottom: 0;
+    background-color: #4267b2;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+
+}
+.select_background{
+    z-index: -1;
+    
+}
+
+.down{
+    margin-top: 8rem;
+}
+header{
+    background-color: #4267b2;
+}
+
