@@ -29,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto","Montserrat", sans-serif;
+  font-family: "Open Sans","Montserrat", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -141,8 +141,8 @@ h6 {
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter ;
   letter-spacing: 3px;
 }
 
@@ -345,24 +345,7 @@ h6 {
   min-width: 180px;
 }
 
-/* Nav Menu Arrows */
-
-.sf-arrows .sf-with-ul {
-  padding-right: 30px;
-}
-
-.sf-arrows .sf-with-ul:after {
-  content: "\f107";
-  position: absolute;
-  right: 15px;
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-}
-
-.sf-arrows ul .sf-with-ul:after {
-  content: "\f105";
-}
+/*  */
 
 /* Nav Meu Container */
 
@@ -378,8 +361,8 @@ h6 {
   text-decoration: none;
   display: inline-block;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: lighter;
   font-size: 13px;
   text-transform: uppercase;
   outline: none;
