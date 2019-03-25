@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div id="container" class="container">
+        <div>
+        <div id="start"> Are you ready!</div>
+       <!-- <a href="startpage.html"> <div id="start"> GO back to Select Page</div></a> -->
+        </div>
+        <div id="quiz" style="display: none">
+          <div class="quizing">
+            <div id="question"></div>
+            <!-- <div id="qImg"></div> -->
+            <div id="choices">
+                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+                <div class="choice" id="D" onclick="checkAnswer('D')"></div>
+            </div>
+        </div>
+            <div id="timer">
+                <div id="counter"></div>
+                <div id="btimeGauge"></div>
+                <div id="timeGauge"></div>
+            </div>
+            <div id="progress"></div>
+        </div>
+        <div id="scoreContainer" ></div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
