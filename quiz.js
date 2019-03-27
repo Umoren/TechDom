@@ -13,7 +13,8 @@ const progress = document.getElementById("progress");
 const scoreDiv = document.getElementById("scoreContainer");
 
 // create our questions
-let questions = [
+let questions = 
+[
     {
         question : "___ introduced entrepreneurship into the economic literature in 1734?",
         // imgSrc : "img/html.png",
@@ -24,21 +25,21 @@ let questions = [
         correct : "B"
     },
     {
-        question : "___ introduced entrepreneurship into the economic literature in 1734?",
+        question : "The word Entrepreneurship is derived from the French word ",
         // imgSrc : "img/html.png",
-        optionA : "Cantilon",
-        optionB : "Schumpter",
-        optionC : "J.B. Say",
-        optionD : "Carl merger",
+        optionA : "Intreprede",
+        optionB : "Entreprede",
+        optionC : "Interprede",
+        optionD : "Enterprede",
         correct : "B"
     },{
-        question : "___ introduced entrepreneurship into the economic literature in 1734?",
+        question : "Which of the following actions of an entrepreneur is most likely to contribute to creative destruction",
         // imgSrc : "img/html.png",
-        optionA : "Cantilon",
-        optionB : "Schumpter",
-        optionC : "J.B. Say",
-        optionD : "Carl merger",
-        correct : "B"
+        optionA : "New Product Development",
+        optionB : "Competitive take over",
+        optionC : "Issue of Shares",
+        optionD : "Price Reduction",
+        correct : "A"
     }
 ];
 
@@ -55,15 +56,20 @@ let score = 0;
 
 // render a question
 function renderQuestion(){
+    
+    
     let q = questions[runningQuestion];
     
     question.innerHTML = "<p>"+ q.question +"</p>";
+
     // qImg.innerHTML = "<img src="+ q.imgSrc +">";
     optionA.innerHTML = q.optionA;
     optionB.innerHTML = q.optionB;
     optionC.innerHTML = q.optionC;
     optionD.innerHTML = q.optionD;
 }
+
+
 
 start.addEventListener("click",startQuiz);
 
@@ -83,6 +89,8 @@ function renderProgress(){
         progress.innerHTML += "<div class='prog' id="+ qIndex +"></div>";
     }
 }
+
+
 
 // counter render
 
@@ -105,6 +113,7 @@ function renderCounter(){
         }
     }
 }
+
 
 // checkAnwer
 

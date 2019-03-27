@@ -1,36 +1,27 @@
-body{
-    font-size: 20px;
-    font-family: monospace;
-    background-color: #0084FF;
-}
+/* body{
+   
 
-#container{
-    margin : 20px auto;
-    background-color: white;
-    height: 600px;
-    width : 800px;
-    border-radius: 5px;
-    box-shadow: 0px 5px 15px 0px;
-    position: relative;
-}
+} */
+
+
 #start{
     font-size: 1.5em;
     font-weight: lighter;
-    margin: 20px;
+    /* margin: 16rem; */
     /* word-break: break-all; */
     width:200px;
-    height:100px;
-    border : 2px solid lightgrey;
+    height:50px;
+    margin-top: 25%; 
+    border : 2px solid transparent;
+    box-shadow: 0px 5px 15px 0px;
     text-align: center;
     cursor: pointer;
     position: relative;
-    left:300px;
-    top: 13.5rem;
     color : lightgrey;
 }
 #start:hover{
-    border: 3px solid lightseagreen;
-    color : lightseagreen;
+    border: 3px solid #0084FF;
+    color : #0084FF;
 }
 
 /* #qImg{
@@ -53,34 +44,33 @@ body{
     right:0;
     top:0;
     bottom: 0;
-    padding: 40px;
+    left: 0;
+    margin: 2.1em;
+    
 }
 #question p{
-    margin : 0;
-    padding : 15px;
+    /* margin : 0; */
+    /* padding : 15px; */
     font-size: 1.25em;
 }
 
 #choices{
-    display: flex;
-    flex-direction: column;
-    align-self: center;
     width : 100%;
     position: relative;
-    /* right : 0;
-    left: 20px; */
+    /* /* right : 0; */
+    
     /* margin-right: 20px; */
-    /* top : 125px; */
-    padding-left : 12.5rem;
+    top : -40px;
+    padding-left : 2.5rem;
 }
 .choice{
     display: flex;
-    justify-content: center;
+    /* justify-content: left; */
     margin-top: 30px;
     width : 50%;
     text-align: center;
-    border : 1px solid grey;
-    border-radius: 5px;
+    /* border : 0.7px solid grey;  */
+    border-radius: 5px; 
     cursor: pointer;
     padding : 15px;
 }
@@ -110,7 +100,7 @@ body{
 #timeGauge{
     height : 10px;
     border-radius: 10px;
-    background-color: mediumseagreen;
+    background-color: #0084FF;
     margin-top : -10px;
     margin-left : 25px;
 }
@@ -179,17 +169,23 @@ body{
 
 p.naver{
     text-align: center;
-    color: #000;
-}
-
-
-.nav{
     color: #0084FF;
+    
+}
 
+p.naver:hover{
+    opacity: 0.7;
 }
-.nav:hover{
-    opacity: 0.6;
+
+.pagination{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
+
+
+
 
 
 
