@@ -723,7 +723,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #call-to-action {
-  background: linear-gradient(rgba(21, 86, 112, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action\ image.png) fixed center center;
+  background: linear-gradient(rgba(21, 86, 112, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action\ image.webp) fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
