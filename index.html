@@ -7,6 +7,7 @@
   <meta content="techdom TechDom GST GST111 GST 112 GST 211 " name="keywords">
   <meta content="GST past questions site" name="description">
   <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#3C5A99" />
   <!-- Favicons -->
 <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
@@ -456,6 +457,14 @@
   <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
+
+  <!-- Service worker -->
+  <script>
+    if ('serviceWorker' in navigator) {
+  
+  navigator.serviceWorker.register('/sw.js');
+  }
+</script>
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
