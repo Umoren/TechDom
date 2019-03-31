@@ -473,6 +473,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
+span.size{
+  font-size: 15px;
+}
 
 
 /*--------------------------------------------------------------
