@@ -1,13 +1,17 @@
 {
-    "name": "TechDom GST ",
-    "short_name": "TechDom 😎",
-    "description": "#1 tech solution provider in University of Uyo",
-    "start_url": "index.html/?homescreen=1",
-    "background_color": "#fff",
-    "theme_color": "#3C5A99",
-    "icons": [{
-      "src": "Icons/TechDom.png",
-      "sizes": "256x256",
-      "type": "image/png"
-    }]
-  }
+  "name": "TechDom",
+  "short_name": "TechDom GST App",
+  "icons":[
+    {
+      
+        "src": "Icons/Techdom.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#3C5A99",
+  "theme_color": "#ffffff"
+}
