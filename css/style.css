@@ -577,7 +577,7 @@ span.size{
 --------------------------------*/
 
 #about {
-  background: url("../img/about-bg.jpg") center top no-repeat fixed;
+  background: url("../img/about-bg.webp") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 40px 0;
   position: relative;
@@ -809,7 +809,7 @@ span.size{
 
 #contact {
   padding: 60px 0;
-  background: url(../img/contactus-background-right.jpg);
+  /* background: url(../img/contactus-background-right.jpg); */
   background-size: cover;
   position: relative;
 }
