@@ -1,14 +1,7 @@
 (function ($) {
   "use strict";
 
-  // Preloader
-  $(window).on('load', function () {
-    if ($('#preloader').length) {
-      $('#preloader').delay(100).fadeOut('slow', function () {
-        $(this).remove();
-      });
-    }
-  });
+ 
 
   // Back to top button
   $(window).scroll(function() {
@@ -205,6 +198,7 @@
 
 })(jQuery);
 
+SERVICE WOR
 if ('serviceWorker' in navigator){
   window.addEventListener('load', ()=>{
     navigator.serviceWorker.register('../sw.js').then( ()=>{
