@@ -5,6 +5,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+
 a {
   color: #4267b2;
   transition: 0.5s;
@@ -72,6 +73,7 @@ h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+  background: transparent;
 }
 
 #header.header-scrolled {
