@@ -31,7 +31,7 @@
   line-height: 24px;
   margin: 0 0 13px 0;
   font-weight: 500;
-  color: #292929;
+  color: rgba(0, 0, 0, .7) !important;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
@@ -40,7 +40,7 @@
 }
 
 .journal-txt h4 a:hover {
-  color: #b8a07e;
+  color: #fff !important;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
@@ -119,6 +119,23 @@
   padding-left: 10%;
 }
 
+.border{
+  border: 12px solid rgba(0, 0, 0, .7);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow:  inset 0 0 10px rgba(0, 0, 0, 0.08);
+  
+}
+
+.border:hover {
+  background: #292929;
+  color: #f7f7f7;
+
+}
+
+.color-specific{
+  color: white;
+}
 /* Commonts form */
 
 .cmt {
@@ -135,4 +152,9 @@ blockquote {
 
 footer{
   margin: 0 auto !important;
+}
+
+.bord{
+  border-radius: 25%;
+  height: 10em;
 }
